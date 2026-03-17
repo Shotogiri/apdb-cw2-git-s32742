@@ -17,5 +17,6 @@ class Program
         Console.WriteLine();
         Console.WriteLine("--------");
         Console.WriteLine("Sum: " + NumCalc.Sum(numbers));
+        Console.WriteLine("Average: " + NumCalc.CalculateAverage(numbers));
     }
 }
