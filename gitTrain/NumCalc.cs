@@ -47,4 +47,24 @@ public class NumCalc
         }
         return max;
     }
+    
+    public static int CalculateMin(int[] arr)
+    {
+        if (arr.Length == 0)
+        {
+            return 0;
+        }
+
+        int min = arr[0];
+
+        foreach (int n in arr)
+        {
+            if (n < min)
+            {
+                min = n;
+            }
+        }
+
+        return min;
+    }
 }
