@@ -8,13 +8,14 @@ class Program
     {
         int[] numbers = { 3, 7, 2, 9, 5 };
         
-        Console.WriteLine("Numbers:");
+        Console.Write("Array elements: ");
         
         foreach (int n in numbers)
             {
             Console.Write(n + " ");
             }
         Console.WriteLine();
+        Console.WriteLine("--------");
         Console.WriteLine("Sum: " + NumCalc.Sum(numbers));
     }
 }
