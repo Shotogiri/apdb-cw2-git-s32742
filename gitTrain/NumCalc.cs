@@ -18,4 +18,14 @@ public class NumCalc
         
         return sum;
     }
+
+    public static double CalculateAverage(int[] arr)
+    {
+        if (arr.Length == 0)
+        {
+            return 0;
+        }
+        
+        return (double)Sum(arr) / arr.Length;
+    }
 }
