@@ -19,5 +19,6 @@ class Program
         Console.WriteLine("Sum: " + NumCalc.Sum(numbers));
         Console.WriteLine("Average: " + NumCalc.CalculateAverage(numbers));
         Console.WriteLine("Max: " + NumCalc.CalculateMax(numbers));
+        Console.WriteLine("Min: " + NumCalc.CalculateMin(numbers));
     }
 }
