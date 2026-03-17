@@ -1,4 +1,6 @@
-﻿using System;
+﻿namespace gitTrain;
+
+using System;
 
 class Program
 {
@@ -13,18 +15,6 @@ class Program
             Console.Write(n + " ");
             }
         Console.WriteLine();
-        Console.WriteLine("Sum: " + Sum(numbers));
-    }
-
-    static int Sum(int[] arr)
-    {
-        int sum = 0;
-
-        foreach (int n in arr)
-        {
-            sum += n;
-        }
-        
-        return sum;
+        Console.WriteLine("Sum: " + NumCalc.Sum(numbers));
     }
 }
