@@ -28,4 +28,23 @@ public class NumCalc
         
         return (double)Sum(arr) / arr.Length;
     }
+
+    public static int CalculateMax(int[] arr)
+    {
+        if (arr.Length == 0)
+        {
+            return 0;
+        }
+        
+        int max = arr[0];
+
+        foreach (int n in arr)
+        {
+            if (n > max)
+            {
+                max = n;
+            }
+        }
+        return max;
+    }
 }
